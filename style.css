@@ -4,33 +4,30 @@ body {
   
   header {
     background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1em;
   }
   
   nav ul {
     list-style-type: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: lightgray;
   }
   
   nav li {
-    float: left;
+    margin: 0 1em;
   }
   
   nav a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    color: black;
   }
   
   main {
+    display: flex;
+    flex-wrap: wrap;
     padding: 1em;
-  }
-  
-  section {
-    margin-bottom: 2em;
   }
